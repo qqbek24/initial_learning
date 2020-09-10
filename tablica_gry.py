@@ -1,8 +1,8 @@
 #****_Simple Game Board
 #****_Autor: Jakub Koziorowski & Kacper Kalamat
 
-numberColumns=int(input("Podaj liczbe kolumn: "))
-numberRows=int(input("Podaj liczbe wierszy: "))
+numberColumns = int(input("Podaj liczbe kolumn: "))
+numberRows = int(input("Podaj liczbe wierszy: "))
 
 
 def print_game_board(numberRows, numberColumns, shape="*"):
