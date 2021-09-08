@@ -1,5 +1,5 @@
-#****_working with files - in Makbet
-#****_Autor: Jakub Koziorowski
+# ****_working with files - in Makbet
+# ****_Autor: Jakub Koziorowski
 
 # TODO: check and clean the print section
 
@@ -9,7 +9,7 @@ try:
 finally:
     f.close()
 
-#####instead use:
+# instead use:
 
 with open("Makbet.txt") as f:
     data = f.read()
@@ -32,7 +32,7 @@ for word in words:
         Slownik[word] = 1
     
 
-#print("Makbet ma ", Slownik.values(), " slow")
+# print("Makbet ma ", Slownik.values(), " slow")
 print("Makbet ma ", len(Slownik), " slow")
 print("slowo wystepuje", Slownik.get("MACBETH"), "razy")
 
