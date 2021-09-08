@@ -1,5 +1,5 @@
-#****_working with files - in Makbet
-#****_Autor: Jakub Koziorowski
+# ****_working with files - in Makbet
+# ****_Autor: Jakub Koziorowski
 
 # TODO: check and clean the print section
 
@@ -9,7 +9,7 @@ try:
 finally:
     f.close()
 
-#####instead use:
+# instead use:
 
 with open("Makbet.txt") as f:
     data = f.read()
@@ -20,7 +20,7 @@ with open("Makbet.txt") as f:
         replace("'", ""). \
         replace("?", ""). \
         replace("|", "")
-    data=data.upper()
+    data = data.upper()
     x = []
     x = data.splitlines()
     y = []
@@ -32,7 +32,7 @@ with open("Makbet.txt") as f:
         Slownik[Slowo] = z"""
 
 
-#print(type(data))
+# print(type(data))
 print("Makbet ma ", len(x), " lini tekstu")
 print("Makbet ma ", len(y), " slow")
-#print("Makbet ma ", Slownik, " slow")
+# print("Makbet ma ", Slownik, " slow")
