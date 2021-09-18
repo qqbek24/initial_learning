@@ -1,5 +1,5 @@
-#****_CSV dane osobowe
-#****_Autor: Jakub Koziorowski
+# ****_CSV dane osobowe
+# ****_Autor: Jakub Koziorowski
 
 import csv
 
@@ -10,6 +10,6 @@ moja_lista=[
 ]
 print(moja_lista)
 
-#with open('dane_osobowe_csv', "wt") as f:
+# with open('dane_osobowe_csv', "wt") as f:
 #    csv_out = csv.writer(f)
 #    csv_out.writerows(moja_lista)
