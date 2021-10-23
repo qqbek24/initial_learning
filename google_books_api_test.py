@@ -6,10 +6,10 @@ from urllib.request import urlopen
 
 
 class gbooks:
-    ggleapikey = "AIzaSyAw0G_S41J9Dd_Ro1jfWWQB7428UsUolMg"
+    googleapikey = "input here proper KEY"
 
     def search(self, value):
-        parms = ("?q=" + value + "&key=" + self.ggleapikey)
+        parms = ("?q=" + value + "&key=" + self.googleapikey)
         req1 = urlopen("https://www.googleapis.com/books/v1/volumes" + parms)
         reqj = json.load(req1)
         print("https://www.googleapis.com/books/v1/volumes" + parms)
