@@ -1,7 +1,7 @@
 # ****_home_work_NoeArk
 # ****_Autor: Jakub Koziorowski & Kacper Kalamat
 
-class Worker():
+class Worker:
 
     def __init__(self, wynagrodzenie, okres_zatrudnienia, nazwisko, stanowisko):
         self.wynagrodzenie = wynagrodzenie
@@ -13,7 +13,7 @@ class Worker():
     def daj_podwyzke(self):
         if self.okres_zatrudnienia < 5:
             self.wynagrodzenie += 100
-        elif self.okres_zatrudnienia>5:
+        elif self.okres_zatrudnienia > 5:
             self.wynagrodzenie += 500
 
     def awansuj(self):
@@ -28,10 +28,11 @@ class Worker():
         self.okres_zatrudnienia = 0
         print("Zostales zwolniony! \nTwój okres zatrudnienia: ", self.okres_zatrudnienia)
 
-firmaX=[]
-for x in range(0,1):
+
+firmaX = []
+for x in range(0, 1):
     name_txt = str(input("Podaj nazwisko: "))
-    #email_txt = str(input("Podaj email: "))
+    # email_txt = str(input("Podaj email: "))
     stanowisko_txt = str(input("Podaj stanowisko (junior, senior, manager): "))
     okresZatrudnienia_txt = float(input("Podaj okres zatrudnienia: "))
     wynagrodzenie_txt = str(input("Podaj wynagrodzenie: "))

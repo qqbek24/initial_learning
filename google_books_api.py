@@ -41,7 +41,6 @@ class gbooks:
                 req_identifier = "brak" if "identifier" not in volume_info_isbn else volume_info_isbn["identifier"]
                 p_identifier = req_identifier if len(req_identifier) > 1 else req_identifier[1]
 
-
             print(f"\nTitle: {title_subtitle}")
             print(f"Author: {prettify_author}")
             print(f"Publication Date: {p_pub_date}")

@@ -1,5 +1,5 @@
-#****_error handling examples
-#****_Autor: Jakub Koziorowski
+# ****_error handling examples
+# ****_Autor: Jakub Koziorowski
 
 while True:
     try:
@@ -9,7 +9,7 @@ while True:
         if dane_wej[2] != "-":
             raise ValueError
         if not (dane_wej[0:2] + dane_wej[3:]).isdecimal():
-            raise  ValueError
+            raise ValueError
 
 #    except ValueError:
 #        print("hej, nie moge zgadnac liczby")

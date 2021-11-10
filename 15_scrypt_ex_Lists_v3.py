@@ -1,5 +1,5 @@
-#****_Listy
-#****_Autor: Jakub Koziorowski
+# ****_Listy
+# ****_Autor: Jakub Koziorowski
 
 user1 = ["Jan Kowalski", "Jan123@gmail.com", 42]
 user2 = ["Maria Jankowski", "Maria123@gmail.com", 38]

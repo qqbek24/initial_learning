@@ -36,6 +36,6 @@ for word in words:
 print("Makbet ma ", len(Slownik), " slow")
 print("slowo wystepuje", Slownik.get("MACBETH"), "razy")
 
-"""czestosc = list(Slownik.values())
-czestosc.sort()
-print(czestosc[-10:])"""
+# czestosc = list(Slownik.values())
+# czestosc.sort()
+# print(czestosc[-10:])

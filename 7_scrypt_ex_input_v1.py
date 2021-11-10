@@ -1,7 +1,7 @@
-#****_input
-#****_Autor: Jakub Koziorowski
+# ****_input
+# ****_Autor: Jakub Koziorowski
 
-x=float(input("podaj liczbe float"))
-y=2.5
+x = float(input("podaj liczbe float"))
+y = 2.5
 
 print(x+y)

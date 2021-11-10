@@ -1,8 +1,9 @@
-#****_map examples
-#****_Autor: Jakub Koziorowski
+# ****_map examples
+# ****_Autor: Jakub Koziorowski
 
 def dodawanie(n):
     return n+n
+
 
 liczba = (1, 2, 3, 4)
 

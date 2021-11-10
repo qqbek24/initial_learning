@@ -1,6 +1,6 @@
-#****_map filter examples
-#****_validate brackets (), {}, []
-#****_Autor: Jakub Koziorowski
+# ****_map filter examples
+# ****_validate brackets (), {}, []
+# ****_Autor: Jakub Koziorowski
 
 # Zwaliduj poprawnośc nawiasów.
 # Chodzi o nawiasy : (), {}, []
@@ -32,6 +32,6 @@ def check_parenthesis(insert_char):
     else:
         return False
 
+
 print(check_parenthesis("(())"))
 print(check_parenthesis("}{{{}}}"))
-

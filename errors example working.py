@@ -1,5 +1,5 @@
-#****_error handling examples
-#****_Autor: Jakub Koziorowski
+# ****_error handling examples
+# ****_Autor: Jakub Koziorowski
 
 while True:
     try:

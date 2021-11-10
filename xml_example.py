@@ -1,18 +1,18 @@
-#****_XML example
-#****_Autor: Jakub Koziorowski
+# ****_XML example
+# ****_Autor: Jakub Koziorowski
 
 # TODO: change code to function
 
-import xml.etree.ElementTree as et
+import xml.etree.ElementTree as Et
 
-tree = et.ElementTree(file='books.xml')
+tree = Et.ElementTree(file='books.xml')
 root = tree.getroot()
-#root.tag
+# root.tag
 x = 0
 for child in root:
-    #print('tag:', child.tag, '')
+    # print('tag:', child.tag, '')
     for grandchild in child:
         if grandchild.tag == 'price':
             x += float(grandchild.text)
-            #return x
+            # return x
 print(x)

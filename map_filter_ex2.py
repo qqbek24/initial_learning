@@ -1,6 +1,6 @@
-#****_map filter examples
-#****_validate brackets (), {}, []
-#****_Autor: Jakub Koziorowski
+# ****_map filter examples
+# ****_validate brackets (), {}, []
+# ****_Autor: Jakub Koziorowski
 
 # Zwaliduj poprawność nawiasów.
 # Chodzi o nawiasy: (), {}, []
@@ -39,6 +39,7 @@ def parentis_validation(insert_char):
         return True
     else:
         return False
+
 
 print(parentis_validation("(XX)YY{[[(([zzzz}))jjdf]]]"))
 print(parentis_validation("()]]]"))

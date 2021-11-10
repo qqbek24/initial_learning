@@ -1,5 +1,5 @@
-#****_Pyramid
-#****_Autor: Jakub Koziorowski
+# ****_Pyramid
+# ****_Autor: Jakub Koziorowski
 
 import string
 

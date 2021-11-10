@@ -1,5 +1,5 @@
-#****_Zadanie z matury
-#****_Autor: Jakub Koziorowski
+# ****_Zadanie z matury
+# ****_Autor: Jakub Koziorowski
 
 a = ((8**0.25)/2)
 b = 1/(2*(8**0.25))

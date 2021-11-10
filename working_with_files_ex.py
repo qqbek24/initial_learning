@@ -27,9 +27,9 @@ with open("Makbet.txt") as f:
     y = data.split()
     Slownik = {}
 
-    """for Slowo in y:
-        z = y.count(Slowo)
-        Slownik[Slowo] = z"""
+    # for Slowo in y:
+    # z = y.count(Slowo)
+    # Slownik[Slowo] = z
 
 
 # print(type(data))

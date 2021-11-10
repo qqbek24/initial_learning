@@ -1,5 +1,5 @@
-#****_map examples
-#****_Autor: Jakub Koziorowski
+# ****_map examples
+# ****_Autor: Jakub Koziorowski
 
 x = range(10)
 

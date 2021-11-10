@@ -1,5 +1,4 @@
-#****_OS examples
-#****_Autor: Jakub Koziorowski
+# ****_OS examples
+# ****_Autor: Jakub Koziorowski
 
 import OS
-

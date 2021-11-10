@@ -1,5 +1,5 @@
-#****_Palindrom TDD examples
-#****_Autor: Jakub Koziorowski
+# ****_Palindrom TDD examples
+# ****_Autor: Jakub Koziorowski
 
 class Palindrom:
     def check_validity(self, text):
@@ -8,4 +8,3 @@ class Palindrom:
         if len(text) == 1:
             return True
         text = text.upper()
-

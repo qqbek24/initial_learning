@@ -3,7 +3,7 @@
 
 import csv
 
-moja_lista=[
+moja_lista = [
     ["Jakub", "Jakub123@gmail.com", 43],
     ["Kasia", "Kasia123@gmail.com", 36],
     ["Pawel", "Pawel123@wp.com", 48]
